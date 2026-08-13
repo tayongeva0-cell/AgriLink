@@ -1,0 +1,27 @@
+# AgriLink Development Notes
+
+## August 13, 2026
+
+### Project Team
+- **Tayong Eva** – Backend Developer & Project Lead
+- **Yulem Alvin** – Frontend Developer
+
+## Progress
+
+### Tayong Eva
+- Created the GitHub repository.
+- Cloned the repository.
+- Created the initial project structure.
+
+### Yulem Alvin
+- Assigned to develop the frontend interface.
+- Will begin implementation of the UI components.
+
+## Current Project Structure
+- Frontend/
+- Backend/
+- Docs/
+
+## Next Steps
+- Frontend: Set up the UI structure and responsive pages.
+- Backend: Set up the server, database connection, and API structure.
