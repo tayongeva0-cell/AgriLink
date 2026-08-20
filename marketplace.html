@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriLink - From the Farm, Straight to You</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f7faf7; color: #333333;">
+
+    <!-- Navigation Bar -->
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background-color: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <a href="" style="display: flex; align-items: center; font-weight: 700; color: #3B7A57; text-decoration: none;">
+            <span style="font-size: 40px;">A</span>
+            <span style="font-size: 40px; color: orange;">E</span>
+            <span>AGRILINK <span style="color: orange; font-size: 11px; display: block; font-weight: 600;">CAMEROON</span></span>
+        </a>
+       <!-- Navigation Links -->
+        <nav style="display: flex; gap: 30px;">
+            <a href="Home2.html" style="text-decoration: none; color: green; font-weight: 600;">Home</a>
+            <a href="marketplace.html" style="text-decoration: none; color: green;">Marketplace</a>
+            <a href="farmers.html" style="text-decoration: none; color: green;">Farmers</a>
+        </nav>
+
+        <!-- Auth Buttons -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <a href="shopcart.html" style="font-size: 18px; text-decoration: none; cursor: pointer; color: #666666;">🛒</a>
+            <a href="login.html" style="background: none; border: 1px solid #cccccc; padding: 8px 20px; border-radius: 20px; cursor: pointer;text-decoration: none; font-weight: 500; color: #555555;">Log In</a>
+            <a href="farmers.html" style="background-color: #3b7a57; border: none;text-decoration: none; color: white; padding: 8px 20px; border-radius: 20px;text-decoration: none cursor: pointer; font-weight: 500;">Sign Up</a>
+        </div>
+    </header>
+    <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; min-height: 100vh; display: flex; flex-direction: column;">
+
+    <!-- Marketplace Header Banner -->
+    <div style="background: linear-gradient(135deg, #2c7a7b, #234e52); color: white; text-align: center; padding: 40px 20px; box-sizing: border-box;">
+        <h1 style="margin: 0; font-size: 2.5rem; font-weight: bold; letter-spacing: 0.5px;">Marketplace</h1>
+        <p style="margin: 10px 0 0 0; font-size: 1.05rem; opacity: 0.9;">Fresh produce from verified local farmers</p>
+    </div>
+    <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #ffffff;">
+
+    <!-- Categories / Selection Options -->
+    <div style="margin-bottom: 20px;">
+        <label style="display: flex; align-items: center; margin-bottom: 12px; color: #374151; font-size: 0.95rem; cursor: pointer;">
+            <input type="radio" name="category" style="margin-right: 10px; accent-color: #0d9488;" checked>
+            All Products
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 12px; color: #374151; font-size: 0.95rem; cursor: pointer;">
+            <input type="radio" name="category" style="margin-right: 10px; accent-color: #0d9488;">
+            New Arrivals
+        </label>
+        <label style="display: flex; align-items: center; margin-bottom: 12px; color: #374151; font-size: 0.95rem; cursor: pointer;">
+            <input type="radio" name="category" style="margin-right: 10px; accent-color: #0d9488;">
+            Best Sellers
+        </label>
+    </div>
+
+    <!-- Main Content Container (Sidebar + Content Area) -->
+    <div style="display: flex; flex: 1; width: 100%; max-width: 1200px; margin: 0 auto; padding: 30px 20px; box-sizing: border-box; gap: 30px;">
+        
+        <!-- Left Sidebar: Filters Component -->
+        <div style="width: 260px; flex-shrink: 0; background-color: transparent;">
+            
+            <!-- Filters Header Row -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                <h3 style="margin: 0; font-size: 1.1rem; font-weight: bold; color: #1f2937;">Filters</h3>
+                <button type="button" style="background: none; border: none; color: #9ca3af; font-size: 0.85rem; cursor: pointer; padding: 0; text-decoration: none;">Clear All</button>
+            </div>
+
+            <!-- Search Sub-section -->
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin: 0 0 10px 0; color: #4b5563; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">Search</h4>
+                <input type="text" placeholder="Search products..." style="width: 100%; padding: 10px 14px; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.9rem; color: #374151; background-color: #ffffff; outline: none; box-sizing: border-box;">
+            </div>
+
+            <!-- Category Sub-section -->
+            <div style="margin-bottom: 25px;">
+                <h4 style="margin: 0 0 12px 0; color: #4b5563; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">Category</h4>
+                
+                <label style="display: flex; align-items: center; margin-bottom: 10px; color: #4b5563; font-size: 0.9rem; cursor: pointer;">
+                    <input type="radio" name="market-category" style="margin-right: 10px; accent-color: #2c7a7b;" checked>
+                    All
+                </label>
+                
+                <label style="display: flex; align-items: center; margin-bottom: 10px; color: #9ca3af; font-size: 0.9rem; cursor: pointer;">
+                    <input type="radio" name="market-category" style="margin-right: 10px; accent-color: #2c7a7b;">
+                    Vegetables
+                </label>
+                
+                <label style="display: flex; align-items: center; margin-bottom: 10px; color: #dc2626; font-size: 0.9rem; font-weight: 600; cursor: pointer;">
+                    <input type="radio" name="market-category" style="margin-right: 10px; accent-color: #dc2626;">
+                    Fruits
+                </label>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Price Range Section -->
+    <div style="margin-bottom: 20px; background-color: white;">
+        <h4 style="margin: 0 0 10px 0; color: #4b5563; font-size: 0.85rem; font-weight: bold; letter-spacing: 0.5px;">PRICE RANGE (SAR)</h4>
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <input type="number" placeholder="Min" style="width: 75px; padding: 6px 12px; border: 1px solid #d1d5db; border-radius: 20px; font-size: 0.9rem; text-align: center; outline: none;">
+            <span style="color: #9ca3af;">-</span>
+            <input type="number" placeholder="Max" style="width: 75px; padding: 6px 12px; border: 1px solid #d1d5db; border-radius: 20px; font-size: 0.9rem; text-align: center; outline: none;">
+        </div>
+    </div>
+
+    <!-- Checkbox Option -->
+    <div style="margin-bottom: 25px;">
+        <label style="display: flex; align-items: center; color: #374151; font-size: 0.95rem; cursor: pointer;">
+            <input type="checkbox" style="margin-right: 10px; accent-color: #0d9488; width: 16px; height: 16px;">
+            Organic only
+        </label>
+    </div>
+
+    <!-- Sort By Section -->
+    <div style="margin-bottom: 25px;">
+        <h4 style="margin: 0 0 10px 0; color: #4b5563; font-size: 0.85rem; font-weight: bold; letter-spacing: 0.5px;">SORT BY</h4>
+        <div style="position: relative; width: 180px;">
+            <select style="width: 100%; padding: 8px 12px; padding-right: 30px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.9rem; color: #374151; background-color: #fff; appearance: none; outline: none; cursor: pointer;">
+                <option>Newest first</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Top Rated</option>
+            </select>
+            <!-- Custom Dropdown Arrow -->
+            <div style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #6b7280; font-size: 0.65rem;">▼</div>
+        </div>
+    </div>
+
+</div>
+  <div style="border-top: 1px solid rgba(255,255,255,0.08);background-color: darkslateblue; padding: 25px 40px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px; font-size: 13px; color: #7f9bb0;">
+      <div>&copy; 2026 AgriLink. All rights reserved.</div>
+      <div style="display: flex; align-items: center; gap: 4px;">Made with <span style="color: #e25555;">❤️</span> for local farmers</div>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
