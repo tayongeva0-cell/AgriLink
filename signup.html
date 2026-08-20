@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriLink - From the Farm, Straight to You</title>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f7faf7; color: #333333;">
+
+    <!-- Navigation Bar -->
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background-color: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <a href="" style="display: flex; align-items: center; font-weight: 700; color: #3B7A57; text-decoration: none;">
+            <span style="font-size: 40px;">A</span>
+            <span style="font-size: 40px; color: orange;">E</span>
+            <span>AGRILINK <span style="color: orange; font-size: 11px; display: block; font-weight: 600;">CAMEROON</span></span>
+        </a>
+       <!-- Navigation Links -->
+        <nav style="display: flex; gap: 30px;">
+            <a href="Home2.html" style="text-decoration: none; color: green; font-weight: 600;">Home</a>
+            <a href="marketplace.html" style="text-decoration: none; color: green;">Marketplace</a>
+            <a href="farmers.html" style="text-decoration: none; color: green;">Farmers</a>
+        </nav>
+
+        <!-- Auth Buttons -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <a href="shopcart.html" style="font-size: 18px; text-decoration: none; cursor: pointer; color: #666666;">🛒</a>
+            <a href="login.html" style="background: none; border: 1px solid #cccccc; padding: 8px 20px; border-radius: 20px; cursor: pointer;text-decoration: none; font-weight: 500; color: #555555;">Log In</a>
+            <a href="signup.html" style="background-color: #3b7a57; border: none;text-decoration: none; color: white; padding: 8px 20px; border-radius: 20px;text-decoration: none cursor: pointer; font-weight: 500;">Sign Up</a>
+        </div>
+    </header>
+
+    <body style="box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f7f9fa; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+
+    <div style="box-sizing: border-box; margin-top: 10px; margin-bottom: 10px; margin-left: 400px; margin-right: 400px; justify-content: center; text-align: center; display: block;">
+        
+        <!-- Logo -->
+        <div class="logo" style="box-sizing: border-box; margin-bottom: 16px;">
+            <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="32" height="32">
+                <path fill="#4CAF50" d="M17 8C15.3 8 13 9.3 12 11C11 9.3 8.7 8 7 8C4.2 8 2 10.2 2 13C2 17.4 7 21 12 23C17 21 22 17.4 22 13C22 10.2 19.8 8 17 8M12 20.3C8.4 17.6 4 14.5 4 13C4 11.3 5.3 10 7 10C8.4 10 10.3 11.4 11.1 12.8L12 14.3L12.9 12.8C13.7 11.4 15.6 10 17 10C18.7 10 20 11.3 20 13C20 14.5 15.6 17.6 12 20.3Z"/>
+            </svg>
+        </div>
+        
+        <!-- Header -->
+        <h1 style="box-sizing: border-box; font-size: 24px; color: #1a1a1a; font-weight: 700; margin: 0 0 8px 0;">Join AgriLink</h1>
+        <p class="subtitle" style="box-sizing: border-box; font-size: 14px; color: #666666; margin: 0 0 32px 0;">Empowering farmers & connecting markets.</p>
+
+        <!-- Form -->
+        <form style="box-sizing: border-box;">
+
+            <!-- Name Input Row -->
+            <div class="form-row" style="box-sizing: border-box; display: flex; gap: 16px;">
+                <div class="form-group" style="box-sizing: border-box; flex: 1; display: flex; flex-direction: column; text-align: left; margin-bottom: 20px;">
+                    <label for="first-name" style="box-sizing: border-box; font-size: 13px; font-weight: 600; color: #4a4a4a; margin-bottom: 6px;">First Name</label>
+                    <input type="text" id="first-name" placeholder="John" style="box-sizing: border-box; padding: 12px; border: 1px solid #dcdcdc; border-radius: 6px; font-size: 14px; color: #1a1a1a; outline: none;">
+                </div>
+                <div class="form-group" style="box-sizing: border-box; flex: 1; display: flex; flex-direction: column; text-align: left; margin-bottom: 20px;">
+                    <label for="last-name" style="box-sizing: border-box; font-size: 13px; font-weight: 600; color: #4a4a4a; margin-bottom: 6px;">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Doe" style="box-sizing: border-box; padding: 12px; border: 1px solid #dcdcdc; border-radius: 6px; font-size: 14px; color: #1a1a1a; outline: none;">
+                </div>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group" style="box-sizing: border-box; display: flex; flex-direction: column; text-align: left; margin-bottom: 20px;">
+                <label for="email" style="box-sizing: border-box; font-size: 13px; font-weight: 600; color: #4a4a4a; margin-bottom: 6px;">Email Address</label>
+                <input type="email" id="email" placeholder="john.doe@example.com" style="box-sizing: border-box; padding: 12px; border: 1px solid #dcdcdc; border-radius: 6px; font-size: 14px; color: #1a1a1a; outline: none;">
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group" style="box-sizing: border-box; display: flex; flex-direction: column; text-align: left; margin-bottom: 20px;">
+                <label for="password" style="box-sizing: border-box; font-size: 13px; font-weight: 600; color: #4a4a4a; margin-bottom: 6px;">Password</label>
+                <input type="password" id="password" placeholder="••••••••" style="box-sizing: border-box; padding: 12px; border: 1px solid #dcdcdc; border-radius: 6px; font-size: 14px; color: #1a1a1a; outline: none;">
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn" style="box-sizing: border-box; width: 100%; padding: 14px; background-color: #4CAF50; border: none; border-radius: 6px; color: #ffffff; font-size: 15px; font-weight: 600; cursor: pointer; margin-top: 10px;">Create Account</button>
+        </form>
+
+        <!-- Footer -->
+        <p class="footer-text" style="box-sizing: border-box; font-size: 13px; color: #666666; margin: 24px 0 0 0;">Already have an account? <a href="login.html" style="box-sizing: border-box; color: #4CAF50; text-decoration: none; font-weight: 600;">Log in</a></p>
+    </div>
+
+      <div style="border-top: 1px solid rgba(255,255,255,0.08);background-color: darkslateblue; padding: 25px 40px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px; font-size: 13px; color: #7f9bb0;">
+      <div>&copy; 2026 AgriLink. All rights reserved.</div>
+      <div style="display: flex; align-items: center; gap: 4px;">Made with <span style="color: #e25555;">❤️</span> for local farmers</div>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
